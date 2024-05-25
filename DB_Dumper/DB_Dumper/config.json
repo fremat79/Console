@@ -1,0 +1,42 @@
+﻿{
+  "Configuration": {
+    "Server": {
+      "Name": ".",
+      "DbName": "AdventureWorksLT2022",
+      "UserName": "",
+      "Password": "94Dvvp(G,H8P+&Qn"
+    },
+    "SkipTables": [
+      "dbo.AuditTrail",
+      "dbo.AuditTrailHistorical",
+      "dbo.BookedItem",
+      "dbo.DecommissionedItem",
+      "dbo.ItemBooking",
+      "dbo.Item",
+      "dbo.ItemHistorical",
+      "dbo.ItemDetails",
+      "dbo.ItemDetailsHistorical",
+      "dbo.ItemsToBeReconciled",
+      "dbo.ITSEvent",
+      "dbo.ITSEventHistorical",
+      "dbo.LabelLogo",
+      "dbo.MachineAlarm",
+      "dbo.MachineAlarmHistorical",
+      "dbo.PurgeLogs",
+      "dbo.SerialImportItem",
+      "dbo.SerialImportItemDetails",
+      "dbo.SerialImportSession",
+      "dbo.Statistics",
+      "languages.TranslationEntry",
+      "languages.TranslationKey",
+      "languages.TranslationLanguage",
+      "logs.ETSLog",
+      "logs.ITSLog",
+      "logs.ITSLogsHistorical",
+      "logs.ITSMessageKeyHistorical",
+      "logs.ITSMessageKey",
+      "wts.Reaggregation",
+      "dbo.ItemArch1"
+    ]
+  }
+}
