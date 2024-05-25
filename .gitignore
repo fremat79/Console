@@ -1,0 +1,11 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+/ConsoleMISC_NetFramekork48/bin/Debug
+/ConsoleMISC_NetFramekork48/obj/Debug
+/DB_Dumper/.vs
+/DB_Dumper/DB_Dumper/bin
+/DB_Dumper/DB_Dumper/obj
+/.vs
+/ConsoleMISC_NetFramekork48
