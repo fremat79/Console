@@ -9,3 +9,7 @@
 /DB_Dumper/DB_Dumper/obj
 /.vs
 /ConsoleMISC_NetFramekork48
+/HostedWebServer/.vs/HostedWebServer
+/HostedWebServer/obj/Debug
+/HostedWebServer/bin/Debug
+/HostedWebServer/packages
