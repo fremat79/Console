@@ -1,4 +1,6 @@
 using Microsoft.Owin;
+using Microsoft.Owin.FileSystems;
+using Microsoft.Owin.StaticFiles;
 using Owin;
 using System.IO;
 
@@ -10,10 +12,18 @@ namespace HostedWebServer
     {
         public void Configuration(IAppBuilder app)
         {
-            
 
-            // Serve static files from the "wwwroot" directory
-            app.UseStaticFiles("C:\\Users\\matteo\\source\\repos\\react\\wow-board\\build");
+            // Serve static files from the specified directory
+            var fileSystem = new PhysicalFileSystem("C:\\Users\\matteo\\source\\repos\\react\\wow-board\\build");
+            var options = new FileServerOptions
+            {
+                FileSystem = fileSystem,
+                EnableDefaultFiles = true
+            };
+            options.StaticFileOptions.ServeUnknownFileTypes = true;
+            options.DefaultFilesOptions.DefaultFileNames = new[] { "index.html" };
+
+            app.UseFileServer(options);            
         }
     }
 
