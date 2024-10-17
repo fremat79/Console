@@ -14,6 +14,7 @@ namespace NuGetCustomFolder
             var d = Newtonsoft.Json.JsonConvert.SerializeObject(new { Name = "John Doe" });
 
             //https://stackoverflow.com/questions/55946010/how-to-specify-output-folder-for-the-referenced-nuget-packages
+            //https://msbuildlog.com/
 
         }
     }
