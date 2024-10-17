@@ -13,3 +13,8 @@
 /HostedWebServer/obj/Debug
 /HostedWebServer/bin/Debug
 /HostedWebServer/packages
+/NuGetCustomFolder/.vs/NuGetCustomFolder
+/NuGetCustomFolder/bin/Debug
+obj/
+bin/
+packages/
