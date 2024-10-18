@@ -21,3 +21,6 @@ packages/
 /NuGetCustomFolder/.vs
 *.binlog
 *.user
+Binaries/
+Debug
+.vs
